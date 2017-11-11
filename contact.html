@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gena Riedler's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/styles.css">
+
+<link href="https://fonts.googleapis.com/css?family=Lora:700|Open+Sans" rel="stylesheet">
+
+	<!-- Latest compiled and minified JavaScript -->
+	
+
+</head>
+<body class="pageStyle">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<div>
+
+<!--this is the header-->
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand"><h1>Gena Riedler</h1></div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      <ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	
+<!--this is the content that will change for each page-->
+
+	<div class="container top">
+		<div class="row">
+			<div class="col-md-9 col-sm-7 col-xs-12">
+				<div class="col-md-12 content portfolio">
+					<h2>Contact</h2>
+			<div class="row">
+				<div class="col-md-12">
+				<form method="post" name="contact_form" action="contact-form-handler.php">
+					<div class="row">
+						<div class="col-md-12">
+					<label for="name">Name</label>
+  					<input type="text" id="name" name="name" placeholder="John Smith">
+  				</div>
+  			</div>
+  			<div class="row">
+						<div class="col-md-12">
+  					<label for="email">Email</label>
+  					<input type="text" id="email" name="email" placeholder="email@example.com">
+  				</div>
+  			</div>
+  			<div class="row">
+						<div class="col-md-12">
+  				
+  					<label for="message">Message</label>
+  					<textarea id="message" name="message"></textarea>
+  				</div>
+  			</div>
+  				
+  					<input type="submit" value="Submit">
+
+				</form>
+				<script language="JavaScript">
+				// Code for validating the form
+				// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+				// for details
+				var frmvalidator  = new Validator("contactform");
+				frmvalidator.addValidation("name","req","Please provide your name"); 
+				frmvalidator.addValidation("email","req","Please provide your email"); 
+				frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+				</script>
+				<!--Sample code from:
+				http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+				-->
+			</div>
+		</div>
+			</div>
+				</div>
+			
+			<div class="col-md-3 col-sm-5 col-xs-12 connect">
+				<h3>Connect with Me</h3>
+				<div class="">
+				<ul>
+					<li><a href="https://github.com/GenaRiedler" target="_blank"><img class="img-responsive" src="./assets/images/github.png" alt="GitHub" width="55"></a></li>
+					<li><a href="https://www.linkedin.com/in/gena-riedler-4a5155134/" target="_blank"><img class="img-responsive" src="./assets/images/linkedin.png" alt="LinkedIn" width="55"></a></li>
+					<li><a href="https://stackexchange.com/users/12056682/gena-riedler" target="_blank"><img class="img-responsive" src="./assets/images/stackoverflow.png" alt="StackExchange" width="55"></a></li>
+				</ul>
+			</div>
+		</div>
+</div>
+<!--this connect box will remain the same for each page-->
+
+		
+	</div>
+
+<!--this is the footer-->
+
+		<footer class="row bottom container-fluid">
+			<div class="col-md-12">
+			<p class="text-center">&copy; Copyright 2017 Gena Riedler</p>
+			</div>
+		</footer>
+</div>
+</body>
+</html>

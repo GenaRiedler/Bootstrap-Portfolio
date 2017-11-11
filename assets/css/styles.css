@@ -1,0 +1,150 @@
+.pageStyle {
+	background: url("../images/dust_scratches.png") repeat #eee;
+	color: #777;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+.content {
+	padding: 30px;
+	margin: 10px 0px 120px -15px;
+	height: auto;
+	background: #fff;
+	border: 1px solid #ddd;
+	
+}
+
+.thumbnail {
+	border: none;
+	float: left;
+	margin: 10px 25px 15px 0px;
+
+}
+.portfolio {
+	
+	padding: 30px;
+	margin: 10px 0px 120px -15px;
+	height: auto;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.connect {
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 0px 30px 30px 30px;
+	margin-top: 10px;
+
+}
+
+.connect li {
+
+	display: inline-block;
+}
+
+.connect li {
+	padding-top: 20px;
+
+}
+
+.connect li:not(:last-child) { 
+	padding-right: 3px;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Lora', serif;
+	padding-bottom: 15px;
+
+}
+
+.navbar {
+	height: 90px;
+}
+
+.navbar-brand {
+	height: 90px;
+	background: #4aaaa5;
+	font-size: 26px;
+	padding: 0 0 0 0;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+	padding: 30px 30px 30px 30px;
+	margin: 0px;
+}
+
+.navbar-default .navbar-brand:hover {
+	background: #145d59;
+
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 32px;
+	border-bottom: 3px solid #ddd;
+
+}
+
+h3 {
+	color: #4aaaa5;
+	font-size: 22px;
+	border-bottom: 3px solid #ddd;
+
+}
+
+.bottom {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 90px;
+	padding: 20px 0px 20px 0px;
+	border-top: 8px solid #4aaaa5;
+	background: #666;
+	color: #ccc;
+	font-size: 12px;
+	text-align: center;
+	margin: 0px;
+}
+
+p {
+	margin-top: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #145d59;
+}
+
+input::placeholder {
+  color: #a9a9a9;
+}
+
+input {
+	font-size: 14px;
+}
+
+textarea {
+	height: 200px;
+}
+
